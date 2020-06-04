@@ -49,13 +49,13 @@ h1 {
     padding-top: 20px;
 }
 
-h2, h3, h4 {
+h2, h4 {
     font-family: 'Nanum Myeongjo', serif;
 }
 
 h3 {
     font-family: 'Space Mono', monospace;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -104,17 +104,21 @@ a:hover { color: black; }
     padding: 20px;
 }
 
-.image-full {
+.image-full div {
     background-color: #ccc;
     padding: 20px;
+}
+
+.image-full {
+    background-color: #ccc;
     width: 100%;
     margin: auto;
-    padding-bottom: 40px;
 }
 
 .footer {
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 @media screen and (max-height: 450px) {
